@@ -1,9 +1,6 @@
 <?php
 
-/**
- * Metadata version
- */
-$sMetadataVersion = '1.2';
+$sMetadataVersion = '1.1';
 
 /**
  * Module information
@@ -15,16 +12,16 @@ $aModule = array(
 				'en'		=> '&quot;My Account&quot; menu für cms pages',
 	    ),
 	    'description'	=> array(
-				'de'		=> 'Blendet das Menü aus dem Bereich &quot;Mein Konto&quot; auf CMS-Seiten ein, deren Ident &quot;oxac_my&quot; enthält.',
+				'de'		=> 'Blendet das Menü aus dem Bereich &quot;Mein Konto&quot; auf CMS-Seiten ein, deren Ident &quot;oxac_my&quot; enthÃ¤lt.',
 				'en'		=> 'Displays the &quot;My Account&quot; menu on cms pages that have an ident containing &quot;oxac_my&quot;.',
 	    ),
 	    'thumbnail'		=> '',
-	    'version'		=> '0.3.1',
+	    'version'		=> '0.3.2',
 	    'author'		=> 'Johannes Ackermann',
 	    'url'			=> 'http://www.oxid-esales.com/',
 	    'email'			=> 'johannes.ackermann@oxid-esales.com',
 	    'extend'		=> array(
-	    		'oxviewconfig'			=>	'oxac/oxac_accountmenu/core/oxac_accountmenu_oxviewconfig',
+	    		'oxviewconfig'		=>	'oxac/oxac_accountmenu/core/oxac_accountmenu_oxviewconfig',
 	    ),
 		'blocks'		=>	array(				
 				array(
